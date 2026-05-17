@@ -1,11 +1,22 @@
+*{
+ outline:2px solid salmon ; 
+
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .para,
 .small-para {
+  width: 500px;
+  height: 100px;
+  display: block;
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid rgb(60, 200, 104);
+  box-sizing: border-box;
 }
 
 .para.small-para {
